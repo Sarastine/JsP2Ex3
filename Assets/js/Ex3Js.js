@@ -1,3 +1,4 @@
 function DialogBox() {
-	alert(document.getElementById('lastname').value)
+	var key = document.getElementById('lastname').value
+	alert(key)
 }
